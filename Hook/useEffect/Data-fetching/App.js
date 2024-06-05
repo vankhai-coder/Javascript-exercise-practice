@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-import UserPosts from './UserPosts';
+import UserPosts from './UserPosts.js';
 
 
 function App() {
