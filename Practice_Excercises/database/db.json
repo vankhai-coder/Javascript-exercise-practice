@@ -1,0 +1,190 @@
+{
+  "students": [
+    {
+      "id": "STU_1721986609780",
+      "name": "khnah",
+      "age": 23,
+      "gender": "Orther"
+    },
+    {
+      "id": "STU_1722000681010",
+      "name": "tinh",
+      "age": 23,
+      "gender": "Male"
+    },
+    {
+      "id": "STU_1722000693283",
+      "name": "Huỳnh Văn Khải",
+      "age": 23,
+      "gender": "Male"
+    },
+    {
+      "id": "STU_1722087324564",
+      "name": "co thao",
+      "age": 32,
+      "gender": "Female"
+    }
+  ],
+  "address": [
+    {
+      "studentID": "STU_1721986609780",
+      "province": "Quang Nam",
+      "district": "Thang Binh",
+      "commute": "Ha Lam",
+      "streetNumber": "12 Dong Son",
+      "id": "86"
+    },
+    {
+      "studentID": "STU_1721986609780",
+      "province": "Quang Nam",
+      "district": "Thang Binh",
+      "commute": "Ha Lam",
+      "streetNumber": "12 Dong Son",
+      "id": "86"
+    },
+    {
+      "studentID": "STU_1721986609780",
+      "province": "Quang Nam",
+      "district": "Thang Binh",
+      "commute": "Ha Lam",
+      "streetNumber": "12 Dong Son",
+      "id": "86"
+    },
+    {
+      "studentID": "STU_1721986609780",
+      "province": "Quang Nam",
+      "district": "Thang Binh",
+      "commute": "Ha Lam",
+      "streetNumber": "12 Dong Son",
+      "id": "86"
+    },
+    {
+      "studentID": "STU_1721986609780",
+      "province": "Quang Nam",
+      "district": "Thang Binh",
+      "commute": "Ha Lam",
+      "streetNumber": "12 Dong Son",
+      "id": "86"
+    },
+    {
+      "id": "1722067297931",
+      "studentID": "STU_1722000681010",
+      "province": "Quang Nam Province",
+      "district": "Thang Binh District",
+      "commute": "Binh Tu Commune",
+      "streetNumber": "nga 3 cay coc"
+    },
+    {
+      "id": "1722067324072",
+      "studentID": "STU_1722000681010",
+      "province": "Quang Nam Province",
+      "district": "Thang Binh District",
+      "commute": "Binh Tu Commune",
+      "streetNumber": "nga 3 cay coc 2"
+    },
+    {
+      "id": "1722067395627",
+      "studentID": "STU_1722000681010",
+      "province": "Quang Nam Province",
+      "district": "Thang Binh District",
+      "commute": "Binh Tu Commune",
+      "streetNumber": "nga 3 cay coc 3"
+    },
+    {
+      "id": "1722067450273",
+      "studentID": "STU_1722000681010",
+      "province": "Quang Nam Province",
+      "district": "Thang Binh District",
+      "commute": "Binh Tu Commune",
+      "streetNumber": "nga 3 cay coc 3"
+    },
+    {
+      "id": "1722067508570",
+      "studentID": "STU_1722000681010",
+      "province": "Ba Ria - Vung Tau Province",
+      "district": "Chau Duc District",
+      "commute": "Kim Long Commune",
+      "streetNumber": "nga 3 cay coc 3"
+    },
+    {
+      "id": "1722067530215",
+      "studentID": "STU_1722000681010",
+      "province": "Bac Ninh Province",
+      "district": "Bac Ninh City",
+      "commute": "Kinh Bac Ward",
+      "streetNumber": "nga 3 cay coc 3"
+    },
+    {
+      "id": "1722067687601",
+      "studentID": "STU_1722000681010",
+      "province": "Hung Yen Province",
+      "district": "Phu Cu District",
+      "commute": "Nguyen Hoa Commune",
+      "streetNumber": "asdf"
+    },
+    {
+      "id": "1722067712139",
+      "studentID": "STU_1722000693283",
+      "province": "Ha Noi City",
+      "district": "Ba Vi District",
+      "commute": "Ba Trai Commune",
+      "streetNumber": "12 "
+    },
+    {
+      "id": "1722067848291",
+      "studentID": "STU_1722000693283",
+      "province": "Quang Nam Province",
+      "district": "Hoi An City",
+      "commute": "Cam Pho Ward",
+      "streetNumber": "111"
+    },
+    {
+      "id": "1722079429122",
+      "studentID": "STU_1722000693283",
+      "province": "Cao Bang Province",
+      "district": "Bao Lac District",
+      "commute": "Son Lap Commune",
+      "streetNumber": "23"
+    },
+    {
+      "id": 1722090543139,
+      "studentID": "STU_1722087324564",
+      "province": "An Giang Province",
+      "district": "An Phu District",
+      "commute": "An Phu Township",
+      "streetNumber": "111"
+    },
+    {
+      "id": "ADD_1722090772559",
+      "studentID": "STU_1722087324564",
+      "province": "Bac Lieu Province",
+      "district": "Hong Dan District",
+      "commute": "Ninh Quoi Commune",
+      "streetNumber": "121"
+    },
+    {
+      "id": "ADD_1722091650873",
+      "studentID": "STU_1721986609780",
+      "province": "An Giang Province",
+      "district": "Cho Moi District",
+      "commute": "My Luong Township",
+      "streetNumber": "1111"
+    },
+    {
+      "id": "ADD_1722091785628",
+      "studentID": "STU_1721986609780",
+      "province": "Bac Kan Province",
+      "district": "Cho Moi District",
+      "commute": "Hoa Muc Commune",
+      "streetNumber": "21"
+    },
+    {
+      "id": "ADD_1722092201117",
+      "studentID": "STU_1721986609780",
+      "province": "Gia Lai Province",
+      "district": "An Khe Town",
+      "commute": "An Binh Ward",
+      "streetNumber": "11"
+    }
+  ]
+}
