@@ -1,0 +1,1686 @@
+{
+  "users": [
+    {
+      "id": "USER_123",
+      "userName": "vankhai",
+      "password": "vankhai",
+      "role": "admin",
+      "isBanned": false
+    },
+    {
+      "id": "USER_1722753217884",
+      "userName": "tinh",
+      "password": "tinh",
+      "role": "user",
+      "isBanned": false
+    },
+    {
+      "id": "USER_1722753606553",
+      "userName": "abc",
+      "password": "abc",
+      "role": "user",
+      "isBanned": true
+    },
+    {
+      "id": "USER_1722753956520",
+      "userName": "a",
+      "password": "a",
+      "role": "user",
+      "isBanned": true
+    },
+    {
+      "id": "USER_1722754600337",
+      "userName": "khanh",
+      "password": "khanh",
+      "role": "user",
+      "isBanned": false
+    }
+  ],
+  "quizs": [
+    {
+      "id": "QUIZ_0001",
+      "question": "What does the 'typeof' operator do in JavaScript?",
+      "answers": [
+        "Checks if a variable is undefined",
+        "Returns the type of a variable",
+        "Converts a variable to a string",
+        "Checks if a variable is null"
+      ],
+      "correctAnswer": "Returns the type of a variable"
+    },
+    {
+      "id": "QUIZ_0002",
+      "question": "What will be the output of 'console.log(0.1 + 0.2 === 0.3)'?",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "NaN"
+      ],
+      "correctAnswer": "false"
+    },
+    {
+      "id": "QUIZ_0003",
+      "question": "Which method can be used to convert a string to a number in JavaScript?",
+      "answers": [
+        "parseInt()",
+        "toNumber()",
+        "convertToNumber()",
+        "parseFloat()"
+      ],
+      "correctAnswer": "parseInt()"
+    },
+    {
+      "id": "QUIZ_0004",
+      "question": "What will the following code snippet log? 'console.log([1] == [1])'",
+      "answers": [
+        "true",
+        "false",
+        "undefined",
+        "Error"
+      ],
+      "correctAnswer": "false"
+    },
+    {
+      "id": "QUIZ_0005",
+      "question": "How can you add a new property to an existing object?",
+      "answers": [
+        "object.addProperty('key', 'value')",
+        "object['key'] = 'value'",
+        "object.append('key', 'value')",
+        "object.insert('key', 'value')"
+      ],
+      "correctAnswer": "object['key'] = 'value'"
+    },
+    {
+      "id": "QUIZ_0006",
+      "question": "What does the 'this' keyword refer to in a method within an object?",
+      "answers": [
+        "The global object",
+        "The object itself",
+        "The function where 'this' is used",
+        "The parent object"
+      ],
+      "correctAnswer": "The object itself"
+    },
+    {
+      "id": "QUIZ_0007",
+      "question": "What is the result of 'typeof NaN'?",
+      "answers": [
+        "'number'",
+        "'NaN'",
+        "'undefined'",
+        "'object'"
+      ],
+      "correctAnswer": "'number'"
+    },
+    {
+      "id": "QUIZ_0008",
+      "question": "Which function is used to execute a block of code repeatedly in JavaScript?",
+      "answers": [
+        "setInterval()",
+        "execute()",
+        "loop()",
+        "run()"
+      ],
+      "correctAnswer": "setInterval()"
+    },
+    {
+      "id": "QUIZ_0009",
+      "question": "How do you declare a constant variable in JavaScript?",
+      "answers": [
+        "var",
+        "const",
+        "let",
+        "static"
+      ],
+      "correctAnswer": "const"
+    },
+    {
+      "id": "QUIZ_0010",
+      "question": "What will be the output of 'console.log([] + [])'?",
+      "answers": [
+        "[]",
+        "''",
+        "'undefined'",
+        "Error"
+      ],
+      "correctAnswer": "''"
+    },
+    {
+      "id": "QUIZ_0011",
+      "question": "Which operator is used to compare both value and type in JavaScript?",
+      "answers": [
+        "==",
+        "===",
+        "!=",
+        "!=="
+      ],
+      "correctAnswer": "==="
+    },
+    {
+      "id": "QUIZ_0012",
+      "question": "What will be the output of 'console.log(2 + '2')'?",
+      "answers": [
+        "4",
+        "'22'",
+        "Error",
+        "undefined"
+      ],
+      "correctAnswer": "'22'"
+    },
+    {
+      "id": "QUIZ_0013",
+      "question": "How do you declare a function in JavaScript?",
+      "answers": [
+        "function myFunction() {}",
+        "declare myFunction() {}",
+        "func myFunction() {}",
+        "create function myFunction() {}"
+      ],
+      "correctAnswer": "function myFunction() {}"
+    },
+    {
+      "id": "QUIZ_0014",
+      "question": "Which method is used to remove the last element from an array?",
+      "answers": [
+        "pop()",
+        "shift()",
+        "slice()",
+        "splice()"
+      ],
+      "correctAnswer": "pop()"
+    },
+    {
+      "id": "QUIZ_0015",
+      "question": "What will be the result of 'console.log(5 - '3')'?",
+      "answers": [
+        "2",
+        "'5 - 3'",
+        "NaN",
+        "Error"
+      ],
+      "correctAnswer": "2"
+    },
+    {
+      "id": "QUIZ_0016",
+      "question": "How can you prevent an event from propagating in JavaScript?",
+      "answers": [
+        "event.stopPropagation()",
+        "event.preventDefault()",
+        "event.cancel()",
+        "event.ignore()"
+      ],
+      "correctAnswer": "event.stopPropagation()"
+    },
+    {
+      "id": "QUIZ_0017",
+      "question": "Which method is used to add elements to the end of an array?",
+      "answers": [
+        "push()",
+        "pop()",
+        "shift()",
+        "unshift()"
+      ],
+      "correctAnswer": "push()"
+    },
+    {
+      "id": "QUIZ_0018",
+      "question": "What does 'JSON.stringify()' do?",
+      "answers": [
+        "Converts a JavaScript object into a JSON string",
+        "Parses a JSON string into a JavaScript object",
+        "Stringifies a JSON object",
+        "Converts a string to a JavaScript object"
+      ],
+      "correctAnswer": "Converts a JavaScript object into a JSON string"
+    },
+    {
+      "id": "QUIZ_0019",
+      "question": "What is the default value of an uninitialized variable in JavaScript?",
+      "answers": [
+        "null",
+        "undefined",
+        "0",
+        "NaN"
+      ],
+      "correctAnswer": "undefined"
+    },
+    {
+      "id": "QUIZ_0020",
+      "question": "How do you create a new array from an existing array in JavaScript?",
+      "answers": [
+        "array.slice()",
+        "array.copy()",
+        "array.clone()",
+        "array.new()"
+      ],
+      "correctAnswer": "array.slice()"
+    },
+    {
+      "id": "QUIZ_1723023527596",
+      "correctAnswer": "huynh van khai",
+      "answers": [
+        "huynh van khai",
+        "vo hung tinh",
+        "tran khanh"
+      ],
+      "question": "Ai la trieu phu do la ?"
+    },
+    {
+      "id": "QUIZ_1723023825594",
+      "correctAnswer": "co",
+      "answers": [
+        "co",
+        "ko"
+      ],
+      "question": "doi bung khong"
+    },
+    {
+      "id": "QUIZ_1723023987870",
+      "correctAnswer": "co",
+      "answers": [
+        "khong",
+        "co"
+      ],
+      "question": "Co dau thuc tap khong ?"
+    },
+    {
+      "id": "QUIZ_1723024063403",
+      "correctAnswer": "co",
+      "answers": [
+        "co",
+        "khong"
+      ],
+      "question": "Ban co muon hoc tieng Anh khong?"
+    },
+    {
+      "id": "QUIZ_1723024209749",
+      "correctAnswer": "54",
+      "answers": [
+        "53",
+        "54"
+      ],
+      "question": "Nuoc ta co may tinh thanh?"
+    }
+  ],
+  "quizResults": [
+    {
+      "id": "QUIZ_RESULT_1722918186607",
+      "userId": "USER_1722754600337",
+      "userName": "khanh",
+      "totalScore": 9,
+      "time": "12h12ph",
+      "result": [
+        {
+          "id": "QUIZ_0005",
+          "question": "How can you add a new property to an existing object?",
+          "answers": [
+            "object.addProperty('key', 'value')",
+            "object['key'] = 'value'",
+            "object.append('key', 'value')",
+            "object.insert('key', 'value')"
+          ],
+          "correctAnswer": "object['key'] = 'value'",
+          "choosen": "object['key'] = 'value'",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0004",
+          "question": "What will the following code snippet log? 'console.log([1] == [1])'",
+          "answers": [
+            "true",
+            "false",
+            "undefined",
+            "Error"
+          ],
+          "correctAnswer": "false",
+          "choosen": "true",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0012",
+          "question": "What will be the output of 'console.log(2 + '2')'?",
+          "answers": [
+            "4",
+            "'22'",
+            "Error",
+            "undefined"
+          ],
+          "correctAnswer": "'22'",
+          "choosen": "'22'",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0007",
+          "question": "What is the result of 'typeof NaN'?",
+          "answers": [
+            "'number'",
+            "'NaN'",
+            "'undefined'",
+            "'object'"
+          ],
+          "correctAnswer": "'number'",
+          "choosen": "'number'",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0003",
+          "question": "Which method can be used to convert a string to a number in JavaScript?",
+          "answers": [
+            "parseInt()",
+            "toNumber()",
+            "convertToNumber()",
+            "parseFloat()"
+          ],
+          "correctAnswer": "parseInt()",
+          "choosen": "parseInt()",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0009",
+          "question": "How do you declare a constant variable in JavaScript?",
+          "answers": [
+            "var",
+            "const",
+            "let",
+            "static"
+          ],
+          "correctAnswer": "const",
+          "choosen": "const",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0018",
+          "question": "What does 'JSON.stringify()' do?",
+          "answers": [
+            "Converts a JavaScript object into a JSON string",
+            "Parses a JSON string into a JavaScript object",
+            "Stringifies a JSON object",
+            "Converts a string to a JavaScript object"
+          ],
+          "correctAnswer": "Converts a JavaScript object into a JSON string",
+          "choosen": "Converts a JavaScript object into a JSON string",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0011",
+          "question": "Which operator is used to compare both value and type in JavaScript?",
+          "answers": [
+            "==",
+            "===",
+            "!=",
+            "!=="
+          ],
+          "correctAnswer": "===",
+          "choosen": "===",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0002",
+          "question": "What will be the output of 'console.log(0.1 + 0.2 === 0.3)'?",
+          "answers": [
+            "true",
+            "false",
+            "undefined",
+            "NaN"
+          ],
+          "correctAnswer": "false",
+          "choosen": "false",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0020",
+          "question": "How do you create a new array from an existing array in JavaScript?",
+          "answers": [
+            "array.slice()",
+            "array.copy()",
+            "array.clone()",
+            "array.new()"
+          ],
+          "correctAnswer": "array.slice()",
+          "choosen": "array.slice()",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "QUIZ_RESULT_1722918672363",
+      "userId": "USER_123",
+      "userName": "vankhai",
+      "totalScore": 7,
+      "time": "12h12ph",
+      "result": [
+        {
+          "id": "QUIZ_0007",
+          "question": "What is the result of 'typeof NaN'?",
+          "answers": [
+            "'number'",
+            "'NaN'",
+            "'undefined'",
+            "'object'"
+          ],
+          "correctAnswer": "'number'",
+          "choosen": "'number'",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0001",
+          "question": "What does the 'typeof' operator do in JavaScript?",
+          "answers": [
+            "Checks if a variable is undefined",
+            "Returns the type of a variable",
+            "Converts a variable to a string",
+            "Checks if a variable is null"
+          ],
+          "correctAnswer": "Returns the type of a variable",
+          "choosen": "Returns the type of a variable",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0011",
+          "question": "Which operator is used to compare both value and type in JavaScript?",
+          "answers": [
+            "==",
+            "===",
+            "!=",
+            "!=="
+          ],
+          "correctAnswer": "===",
+          "choosen": "===",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0002",
+          "question": "What will be the output of 'console.log(0.1 + 0.2 === 0.3)'?",
+          "answers": [
+            "true",
+            "false",
+            "undefined",
+            "NaN"
+          ],
+          "correctAnswer": "false",
+          "choosen": "false",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0009",
+          "question": "How do you declare a constant variable in JavaScript?",
+          "answers": [
+            "var",
+            "const",
+            "let",
+            "static"
+          ],
+          "correctAnswer": "const",
+          "choosen": "let",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0004",
+          "question": "What will the following code snippet log? 'console.log([1] == [1])'",
+          "answers": [
+            "true",
+            "false",
+            "undefined",
+            "Error"
+          ],
+          "correctAnswer": "false",
+          "choosen": "false",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0017",
+          "question": "Which method is used to add elements to the end of an array?",
+          "answers": [
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
+          ],
+          "correctAnswer": "push()",
+          "choosen": "push()",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0018",
+          "question": "What does 'JSON.stringify()' do?",
+          "answers": [
+            "Converts a JavaScript object into a JSON string",
+            "Parses a JSON string into a JavaScript object",
+            "Stringifies a JSON object",
+            "Converts a string to a JavaScript object"
+          ],
+          "correctAnswer": "Converts a JavaScript object into a JSON string",
+          "choosen": "Converts a JavaScript object into a JSON string",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0008",
+          "question": "Which function is used to execute a block of code repeatedly in JavaScript?",
+          "answers": [
+            "setInterval()",
+            "execute()",
+            "loop()",
+            "run()"
+          ],
+          "correctAnswer": "setInterval()",
+          "choosen": "loop()",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0005",
+          "question": "How can you add a new property to an existing object?",
+          "answers": [
+            "object.addProperty('key', 'value')",
+            "object['key'] = 'value'",
+            "object.append('key', 'value')",
+            "object.insert('key', 'value')"
+          ],
+          "correctAnswer": "object['key'] = 'value'",
+          "choosen": "object.addProperty('key', 'value')",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "QUIZ_RESULT_1722919022820",
+      "userId": "USER_1722753217884",
+      "userName": "tinh",
+      "totalScore": 0,
+      "time": "12h12ph",
+      "result": [
+        {
+          "id": "QUIZ_0001",
+          "question": "What does the 'typeof' operator do in JavaScript?",
+          "answers": [
+            "Checks if a variable is undefined",
+            "Returns the type of a variable",
+            "Converts a variable to a string",
+            "Checks if a variable is null"
+          ],
+          "correctAnswer": "Returns the type of a variable",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0008",
+          "question": "Which function is used to execute a block of code repeatedly in JavaScript?",
+          "answers": [
+            "setInterval()",
+            "execute()",
+            "loop()",
+            "run()"
+          ],
+          "correctAnswer": "setInterval()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0002",
+          "question": "What will be the output of 'console.log(0.1 + 0.2 === 0.3)'?",
+          "answers": [
+            "true",
+            "false",
+            "undefined",
+            "NaN"
+          ],
+          "correctAnswer": "false",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0018",
+          "question": "What does 'JSON.stringify()' do?",
+          "answers": [
+            "Converts a JavaScript object into a JSON string",
+            "Parses a JSON string into a JavaScript object",
+            "Stringifies a JSON object",
+            "Converts a string to a JavaScript object"
+          ],
+          "correctAnswer": "Converts a JavaScript object into a JSON string",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0014",
+          "question": "Which method is used to remove the last element from an array?",
+          "answers": [
+            "pop()",
+            "shift()",
+            "slice()",
+            "splice()"
+          ],
+          "correctAnswer": "pop()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0015",
+          "question": "What will be the result of 'console.log(5 - '3')'?",
+          "answers": [
+            "2",
+            "'5 - 3'",
+            "NaN",
+            "Error"
+          ],
+          "correctAnswer": "2",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0004",
+          "question": "What will the following code snippet log? 'console.log([1] == [1])'",
+          "answers": [
+            "true",
+            "false",
+            "undefined",
+            "Error"
+          ],
+          "correctAnswer": "false",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0012",
+          "question": "What will be the output of 'console.log(2 + '2')'?",
+          "answers": [
+            "4",
+            "'22'",
+            "Error",
+            "undefined"
+          ],
+          "correctAnswer": "'22'",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0010",
+          "question": "What will be the output of 'console.log([] + [])'?",
+          "answers": [
+            "[]",
+            "''",
+            "'undefined'",
+            "Error"
+          ],
+          "correctAnswer": "''",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0009",
+          "question": "How do you declare a constant variable in JavaScript?",
+          "answers": [
+            "var",
+            "const",
+            "let",
+            "static"
+          ],
+          "correctAnswer": "const",
+          "choosen": "",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "QUIZ_RESULT_1722919381329",
+      "userId": "USER_1722753956520",
+      "userName": "a",
+      "totalScore": 1,
+      "time": "12h12ph",
+      "result": [
+        {
+          "id": "QUIZ_0012",
+          "question": "What will be the output of 'console.log(2 + '2')'?",
+          "answers": [
+            "4",
+            "'22'",
+            "Error",
+            "undefined"
+          ],
+          "correctAnswer": "'22'",
+          "choosen": "'22'",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0001",
+          "question": "What does the 'typeof' operator do in JavaScript?",
+          "answers": [
+            "Checks if a variable is undefined",
+            "Returns the type of a variable",
+            "Converts a variable to a string",
+            "Checks if a variable is null"
+          ],
+          "correctAnswer": "Returns the type of a variable",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0017",
+          "question": "Which method is used to add elements to the end of an array?",
+          "answers": [
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
+          ],
+          "correctAnswer": "push()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0002",
+          "question": "What will be the output of 'console.log(0.1 + 0.2 === 0.3)'?",
+          "answers": [
+            "true",
+            "false",
+            "undefined",
+            "NaN"
+          ],
+          "correctAnswer": "false",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0018",
+          "question": "What does 'JSON.stringify()' do?",
+          "answers": [
+            "Converts a JavaScript object into a JSON string",
+            "Parses a JSON string into a JavaScript object",
+            "Stringifies a JSON object",
+            "Converts a string to a JavaScript object"
+          ],
+          "correctAnswer": "Converts a JavaScript object into a JSON string",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0011",
+          "question": "Which operator is used to compare both value and type in JavaScript?",
+          "answers": [
+            "==",
+            "===",
+            "!=",
+            "!=="
+          ],
+          "correctAnswer": "===",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0009",
+          "question": "How do you declare a constant variable in JavaScript?",
+          "answers": [
+            "var",
+            "const",
+            "let",
+            "static"
+          ],
+          "correctAnswer": "const",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0003",
+          "question": "Which method can be used to convert a string to a number in JavaScript?",
+          "answers": [
+            "parseInt()",
+            "toNumber()",
+            "convertToNumber()",
+            "parseFloat()"
+          ],
+          "correctAnswer": "parseInt()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0008",
+          "question": "Which function is used to execute a block of code repeatedly in JavaScript?",
+          "answers": [
+            "setInterval()",
+            "execute()",
+            "loop()",
+            "run()"
+          ],
+          "correctAnswer": "setInterval()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0019",
+          "question": "What is the default value of an uninitialized variable in JavaScript?",
+          "answers": [
+            "null",
+            "undefined",
+            "0",
+            "NaN"
+          ],
+          "correctAnswer": "undefined",
+          "choosen": "",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "QUIZ_RESULT_1722919486641",
+      "userId": "USER_1722753606553",
+      "userName": "abc",
+      "totalScore": 2,
+      "time": "12h12ph",
+      "result": [
+        {
+          "id": "QUIZ_0007",
+          "question": "What is the result of 'typeof NaN'?",
+          "answers": [
+            "'number'",
+            "'NaN'",
+            "'undefined'",
+            "'object'"
+          ],
+          "correctAnswer": "'number'",
+          "choosen": "'number'",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0001",
+          "question": "What does the 'typeof' operator do in JavaScript?",
+          "answers": [
+            "Checks if a variable is undefined",
+            "Returns the type of a variable",
+            "Converts a variable to a string",
+            "Checks if a variable is null"
+          ],
+          "correctAnswer": "Returns the type of a variable",
+          "choosen": "Returns the type of a variable",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0018",
+          "question": "What does 'JSON.stringify()' do?",
+          "answers": [
+            "Converts a JavaScript object into a JSON string",
+            "Parses a JSON string into a JavaScript object",
+            "Stringifies a JSON object",
+            "Converts a string to a JavaScript object"
+          ],
+          "correctAnswer": "Converts a JavaScript object into a JSON string",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0020",
+          "question": "How do you create a new array from an existing array in JavaScript?",
+          "answers": [
+            "array.slice()",
+            "array.copy()",
+            "array.clone()",
+            "array.new()"
+          ],
+          "correctAnswer": "array.slice()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0009",
+          "question": "How do you declare a constant variable in JavaScript?",
+          "answers": [
+            "var",
+            "const",
+            "let",
+            "static"
+          ],
+          "correctAnswer": "const",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0002",
+          "question": "What will be the output of 'console.log(0.1 + 0.2 === 0.3)'?",
+          "answers": [
+            "true",
+            "false",
+            "undefined",
+            "NaN"
+          ],
+          "correctAnswer": "false",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0017",
+          "question": "Which method is used to add elements to the end of an array?",
+          "answers": [
+            "push()",
+            "pop()",
+            "shift()",
+            "unshift()"
+          ],
+          "correctAnswer": "push()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0011",
+          "question": "Which operator is used to compare both value and type in JavaScript?",
+          "answers": [
+            "==",
+            "===",
+            "!=",
+            "!=="
+          ],
+          "correctAnswer": "===",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0003",
+          "question": "Which method can be used to convert a string to a number in JavaScript?",
+          "answers": [
+            "parseInt()",
+            "toNumber()",
+            "convertToNumber()",
+            "parseFloat()"
+          ],
+          "correctAnswer": "parseInt()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0019",
+          "question": "What is the default value of an uninitialized variable in JavaScript?",
+          "answers": [
+            "null",
+            "undefined",
+            "0",
+            "NaN"
+          ],
+          "correctAnswer": "undefined",
+          "choosen": "",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "QUIZ_RESULT_1722919722000",
+      "userId": "USER_123",
+      "userName": "vankhai",
+      "totalScore": 2,
+      "time": "12h12ph",
+      "result": [
+        {
+          "id": "QUIZ_0001",
+          "question": "What does the 'typeof' operator do in JavaScript?",
+          "answers": [
+            "Checks if a variable is undefined",
+            "Returns the type of a variable",
+            "Converts a variable to a string",
+            "Checks if a variable is null"
+          ],
+          "correctAnswer": "Returns the type of a variable",
+          "choosen": "Returns the type of a variable",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0016",
+          "question": "How can you prevent an event from propagating in JavaScript?",
+          "answers": [
+            "event.stopPropagation()",
+            "event.preventDefault()",
+            "event.cancel()",
+            "event.ignore()"
+          ],
+          "correctAnswer": "event.stopPropagation()",
+          "choosen": "event.preventDefault()",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0015",
+          "question": "What will be the result of 'console.log(5 - '3')'?",
+          "answers": [
+            "2",
+            "'5 - 3'",
+            "NaN",
+            "Error"
+          ],
+          "correctAnswer": "2",
+          "choosen": "'5 - 3'",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0012",
+          "question": "What will be the output of 'console.log(2 + '2')'?",
+          "answers": [
+            "4",
+            "'22'",
+            "Error",
+            "undefined"
+          ],
+          "correctAnswer": "'22'",
+          "choosen": "'22'",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0007",
+          "question": "What is the result of 'typeof NaN'?",
+          "answers": [
+            "'number'",
+            "'NaN'",
+            "'undefined'",
+            "'object'"
+          ],
+          "correctAnswer": "'number'",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0011",
+          "question": "Which operator is used to compare both value and type in JavaScript?",
+          "answers": [
+            "==",
+            "===",
+            "!=",
+            "!=="
+          ],
+          "correctAnswer": "===",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0010",
+          "question": "What will be the output of 'console.log([] + [])'?",
+          "answers": [
+            "[]",
+            "''",
+            "'undefined'",
+            "Error"
+          ],
+          "correctAnswer": "''",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0002",
+          "question": "What will be the output of 'console.log(0.1 + 0.2 === 0.3)'?",
+          "answers": [
+            "true",
+            "false",
+            "undefined",
+            "NaN"
+          ],
+          "correctAnswer": "false",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0019",
+          "question": "What is the default value of an uninitialized variable in JavaScript?",
+          "answers": [
+            "null",
+            "undefined",
+            "0",
+            "NaN"
+          ],
+          "correctAnswer": "undefined",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0008",
+          "question": "Which function is used to execute a block of code repeatedly in JavaScript?",
+          "answers": [
+            "setInterval()",
+            "execute()",
+            "loop()",
+            "run()"
+          ],
+          "correctAnswer": "setInterval()",
+          "choosen": "",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "QUIZ_RESULT_1723024330767",
+      "userId": "USER_1722753217884",
+      "userName": "tinh",
+      "totalScore": 1,
+      "time": "12h12ph",
+      "result": [
+        {
+          "id": "QUIZ_0016",
+          "question": "How can you prevent an event from propagating in JavaScript?",
+          "answers": [
+            "event.stopPropagation()",
+            "event.preventDefault()",
+            "event.cancel()",
+            "event.ignore()"
+          ],
+          "correctAnswer": "event.stopPropagation()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0020",
+          "question": "How do you create a new array from an existing array in JavaScript?",
+          "answers": [
+            "array.slice()",
+            "array.copy()",
+            "array.clone()",
+            "array.new()"
+          ],
+          "correctAnswer": "array.slice()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0004",
+          "question": "What will the following code snippet log? 'console.log([1] == [1])'",
+          "answers": [
+            "true",
+            "false",
+            "undefined",
+            "Error"
+          ],
+          "correctAnswer": "false",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0007",
+          "question": "What is the result of 'typeof NaN'?",
+          "answers": [
+            "'number'",
+            "'NaN'",
+            "'undefined'",
+            "'object'"
+          ],
+          "correctAnswer": "'number'",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0001",
+          "question": "What does the 'typeof' operator do in JavaScript?",
+          "answers": [
+            "Checks if a variable is undefined",
+            "Returns the type of a variable",
+            "Converts a variable to a string",
+            "Checks if a variable is null"
+          ],
+          "correctAnswer": "Returns the type of a variable",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0002",
+          "question": "What will be the output of 'console.log(0.1 + 0.2 === 0.3)'?",
+          "answers": [
+            "true",
+            "false",
+            "undefined",
+            "NaN"
+          ],
+          "correctAnswer": "false",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0018",
+          "question": "What does 'JSON.stringify()' do?",
+          "answers": [
+            "Converts a JavaScript object into a JSON string",
+            "Parses a JSON string into a JavaScript object",
+            "Stringifies a JSON object",
+            "Converts a string to a JavaScript object"
+          ],
+          "correctAnswer": "Converts a JavaScript object into a JSON string",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0015",
+          "question": "What will be the result of 'console.log(5 - '3')'?",
+          "answers": [
+            "2",
+            "'5 - 3'",
+            "NaN",
+            "Error"
+          ],
+          "correctAnswer": "2",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_1723024063403",
+          "correctAnswer": "asdfasdf",
+          "answers": [
+            "asdf",
+            "asdfasdf"
+          ],
+          "question": "asdf",
+          "choosen": "asdfasdf",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0019",
+          "question": "What is the default value of an uninitialized variable in JavaScript?",
+          "answers": [
+            "null",
+            "undefined",
+            "0",
+            "NaN"
+          ],
+          "correctAnswer": "undefined",
+          "choosen": "",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "QUIZ_RESULT_1723024503308",
+      "userId": "USER_1722753217884",
+      "userName": "tinh",
+      "totalScore": 3,
+      "time": "12h12ph",
+      "result": [
+        {
+          "id": "QUIZ_0007",
+          "question": "What is the result of 'typeof NaN'?",
+          "answers": [
+            "'number'",
+            "'NaN'",
+            "'undefined'",
+            "'object'"
+          ],
+          "correctAnswer": "'number'",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0006",
+          "question": "What does the 'this' keyword refer to in a method within an object?",
+          "answers": [
+            "The global object",
+            "The object itself",
+            "The function where 'this' is used",
+            "The parent object"
+          ],
+          "correctAnswer": "The object itself",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0020",
+          "question": "How do you create a new array from an existing array in JavaScript?",
+          "answers": [
+            "array.slice()",
+            "array.copy()",
+            "array.clone()",
+            "array.new()"
+          ],
+          "correctAnswer": "array.slice()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0008",
+          "question": "Which function is used to execute a block of code repeatedly in JavaScript?",
+          "answers": [
+            "setInterval()",
+            "execute()",
+            "loop()",
+            "run()"
+          ],
+          "correctAnswer": "setInterval()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0009",
+          "question": "How do you declare a constant variable in JavaScript?",
+          "answers": [
+            "var",
+            "const",
+            "let",
+            "static"
+          ],
+          "correctAnswer": "const",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_1723023987870",
+          "correctAnswer": "co",
+          "answers": [
+            "khong",
+            "co"
+          ],
+          "question": "Co dau thuc tap khong ?",
+          "choosen": "co",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_1723023825594",
+          "correctAnswer": "co",
+          "answers": [
+            "co",
+            "ko"
+          ],
+          "question": "doi bung khong",
+          "choosen": "co",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_1723024063403",
+          "correctAnswer": "co",
+          "answers": [
+            "co",
+            "khong"
+          ],
+          "question": "Ban co muon hoc tieng Anh khong?",
+          "choosen": "co",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0014",
+          "question": "Which method is used to remove the last element from an array?",
+          "answers": [
+            "pop()",
+            "shift()",
+            "slice()",
+            "splice()"
+          ],
+          "correctAnswer": "pop()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0018",
+          "question": "What does 'JSON.stringify()' do?",
+          "answers": [
+            "Converts a JavaScript object into a JSON string",
+            "Parses a JSON string into a JavaScript object",
+            "Stringifies a JSON object",
+            "Converts a string to a JavaScript object"
+          ],
+          "correctAnswer": "Converts a JavaScript object into a JSON string",
+          "choosen": "",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "QUIZ_RESULT_1723024530313",
+      "userId": "USER_1722753217884",
+      "userName": "tinh",
+      "totalScore": 6,
+      "time": "12h12ph",
+      "result": [
+        {
+          "id": "QUIZ_0004",
+          "question": "What will the following code snippet log? 'console.log([1] == [1])'",
+          "answers": [
+            "true",
+            "false",
+            "undefined",
+            "Error"
+          ],
+          "correctAnswer": "false",
+          "choosen": "true",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0014",
+          "question": "Which method is used to remove the last element from an array?",
+          "answers": [
+            "pop()",
+            "shift()",
+            "slice()",
+            "splice()"
+          ],
+          "correctAnswer": "pop()",
+          "choosen": "slice()",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0008",
+          "question": "Which function is used to execute a block of code repeatedly in JavaScript?",
+          "answers": [
+            "setInterval()",
+            "execute()",
+            "loop()",
+            "run()"
+          ],
+          "correctAnswer": "setInterval()",
+          "choosen": "loop()",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0001",
+          "question": "What does the 'typeof' operator do in JavaScript?",
+          "answers": [
+            "Checks if a variable is undefined",
+            "Returns the type of a variable",
+            "Converts a variable to a string",
+            "Checks if a variable is null"
+          ],
+          "correctAnswer": "Returns the type of a variable",
+          "choosen": "Converts a variable to a string",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0018",
+          "question": "What does 'JSON.stringify()' do?",
+          "answers": [
+            "Converts a JavaScript object into a JSON string",
+            "Parses a JSON string into a JavaScript object",
+            "Stringifies a JSON object",
+            "Converts a string to a JavaScript object"
+          ],
+          "correctAnswer": "Converts a JavaScript object into a JSON string",
+          "choosen": "Converts a JavaScript object into a JSON string",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0020",
+          "question": "How do you create a new array from an existing array in JavaScript?",
+          "answers": [
+            "array.slice()",
+            "array.copy()",
+            "array.clone()",
+            "array.new()"
+          ],
+          "correctAnswer": "array.slice()",
+          "choosen": "array.slice()",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_1723024209749",
+          "correctAnswer": "54",
+          "answers": [
+            "53",
+            "54"
+          ],
+          "question": "Nuoc ta co may tinh thanh?",
+          "choosen": "54",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0007",
+          "question": "What is the result of 'typeof NaN'?",
+          "answers": [
+            "'number'",
+            "'NaN'",
+            "'undefined'",
+            "'object'"
+          ],
+          "correctAnswer": "'number'",
+          "choosen": "'number'",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0012",
+          "question": "What will be the output of 'console.log(2 + '2')'?",
+          "answers": [
+            "4",
+            "'22'",
+            "Error",
+            "undefined"
+          ],
+          "correctAnswer": "'22'",
+          "choosen": "'22'",
+          "score": 1
+        },
+        {
+          "id": "QUIZ_0003",
+          "question": "Which method can be used to convert a string to a number in JavaScript?",
+          "answers": [
+            "parseInt()",
+            "toNumber()",
+            "convertToNumber()",
+            "parseFloat()"
+          ],
+          "correctAnswer": "parseInt()",
+          "choosen": "parseInt()",
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": "QUIZ_RESULT_1723024594712",
+      "userId": "USER_1722753217884",
+      "userName": "tinh",
+      "totalScore": 0,
+      "time": "12h12ph",
+      "result": [
+        {
+          "id": "QUIZ_0012",
+          "question": "What will be the output of 'console.log(2 + '2')'?",
+          "answers": [
+            "4",
+            "'22'",
+            "Error",
+            "undefined"
+          ],
+          "correctAnswer": "'22'",
+          "choosen": "4",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0005",
+          "question": "How can you add a new property to an existing object?",
+          "answers": [
+            "object.addProperty('key', 'value')",
+            "object['key'] = 'value'",
+            "object.append('key', 'value')",
+            "object.insert('key', 'value')"
+          ],
+          "correctAnswer": "object['key'] = 'value'",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_1723023527596",
+          "correctAnswer": "huynh van khai",
+          "answers": [
+            "huynh van khai",
+            "vo hung tinh",
+            "tran khanh"
+          ],
+          "question": "Ai la trieu phu do la ?",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0013",
+          "question": "How do you declare a function in JavaScript?",
+          "answers": [
+            "function myFunction() {}",
+            "declare myFunction() {}",
+            "func myFunction() {}",
+            "create function myFunction() {}"
+          ],
+          "correctAnswer": "function myFunction() {}",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0004",
+          "question": "What will the following code snippet log? 'console.log([1] == [1])'",
+          "answers": [
+            "true",
+            "false",
+            "undefined",
+            "Error"
+          ],
+          "correctAnswer": "false",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_1723024063403",
+          "correctAnswer": "co",
+          "answers": [
+            "co",
+            "khong"
+          ],
+          "question": "Ban co muon hoc tieng Anh khong?",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0006",
+          "question": "What does the 'this' keyword refer to in a method within an object?",
+          "answers": [
+            "The global object",
+            "The object itself",
+            "The function where 'this' is used",
+            "The parent object"
+          ],
+          "correctAnswer": "The object itself",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0016",
+          "question": "How can you prevent an event from propagating in JavaScript?",
+          "answers": [
+            "event.stopPropagation()",
+            "event.preventDefault()",
+            "event.cancel()",
+            "event.ignore()"
+          ],
+          "correctAnswer": "event.stopPropagation()",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0010",
+          "question": "What will be the output of 'console.log([] + [])'?",
+          "answers": [
+            "[]",
+            "''",
+            "'undefined'",
+            "Error"
+          ],
+          "correctAnswer": "''",
+          "choosen": "",
+          "score": 0
+        },
+        {
+          "id": "QUIZ_0007",
+          "question": "What is the result of 'typeof NaN'?",
+          "answers": [
+            "'number'",
+            "'NaN'",
+            "'undefined'",
+            "'object'"
+          ],
+          "correctAnswer": "'number'",
+          "choosen": "",
+          "score": 0
+        }
+      ]
+    }
+  ]
+}
